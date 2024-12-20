@@ -67,7 +67,7 @@
             // 
             this.txtUnitPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtUnitPrice.Location = new System.Drawing.Point(179, 176);
-            this.txtUnitPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUnitPrice.Margin = new System.Windows.Forms.Padding(2);
             this.txtUnitPrice.Name = "txtUnitPrice";
             this.txtUnitPrice.Size = new System.Drawing.Size(194, 28);
             this.txtUnitPrice.TabIndex = 4;
@@ -88,7 +88,7 @@
             this.rdbDollar.AutoSize = true;
             this.rdbDollar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdbDollar.Location = new System.Drawing.Point(33, 134);
-            this.rdbDollar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdbDollar.Margin = new System.Windows.Forms.Padding(2);
             this.rdbDollar.Name = "rdbDollar";
             this.rdbDollar.Size = new System.Drawing.Size(75, 28);
             this.rdbDollar.TabIndex = 6;
@@ -101,7 +101,7 @@
             this.rdbEuro.AutoSize = true;
             this.rdbEuro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdbEuro.Location = new System.Drawing.Point(151, 134);
-            this.rdbEuro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdbEuro.Margin = new System.Windows.Forms.Padding(2);
             this.rdbEuro.Name = "rdbEuro";
             this.rdbEuro.Size = new System.Drawing.Size(72, 28);
             this.rdbEuro.TabIndex = 7;
@@ -114,7 +114,7 @@
             this.rdbPound.AutoSize = true;
             this.rdbPound.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdbPound.Location = new System.Drawing.Point(265, 134);
-            this.rdbPound.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdbPound.Margin = new System.Windows.Forms.Padding(2);
             this.rdbPound.Name = "rdbPound";
             this.rdbPound.Size = new System.Drawing.Size(83, 28);
             this.rdbPound.TabIndex = 8;
@@ -126,12 +126,13 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.Location = new System.Drawing.Point(193, 250);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(164, 38);
             this.button1.TabIndex = 9;
             this.button1.Text = "İşlemi Yap";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -148,7 +149,7 @@
             // 
             this.txtTotalPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtTotalPrice.Location = new System.Drawing.Point(179, 214);
-            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(2);
             this.txtTotalPrice.Name = "txtTotalPrice";
             this.txtTotalPrice.Size = new System.Drawing.Size(194, 28);
             this.txtTotalPrice.TabIndex = 10;
@@ -168,7 +169,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(613, 372);
+            this.ClientSize = new System.Drawing.Size(666, 372);
             this.Controls.Add(this.lblPound);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTotalPrice);
@@ -180,7 +181,7 @@
             this.Controls.Add(this.txtUnitPrice);
             this.Controls.Add(this.lblEuro);
             this.Controls.Add(this.lblDollar);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
